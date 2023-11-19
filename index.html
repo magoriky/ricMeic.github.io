@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
       rel="stylesheet"
     />
     <link href="./css/style.css" rel="stylesheet" />
@@ -20,18 +20,23 @@
   </head>
   <body>
     <section id="title">
-      <div class="row mb-3 text-center">
-        <div class="col-md-8 themed-grid-col">
-          <div class="pb-3">
+      <div class="row mb-3">
+        <div class="col-md-2">
+          <!-- Column 1 content -->
+          <div class="image-container">
             <img
               id="profile-picture"
-              src="./images/profile_picture_no_background.png"
+              src="./images/profile_picture2.jpg"
               alt="profile-picture-of-Ricardo"
-              height="200px"
+              height="250px"
             />
           </div>
-          <div class="row">
-            <div class="col-md-6 themed-grid-col">
+        </div>
+        <div class="col-md-6 themed-grid-col">
+          <!-- Center column content -->
+          <div class="row text-center image-container">
+            <div class="text-md-start col-md-12">
+              <!-- First row in the center column -->
               M. Sc. Mechanical Engineering
               <img
                 src="./images/mechanical-engineering-icon.svg"
@@ -39,7 +44,8 @@
                 height="50px"
               />
             </div>
-            <div class="col-md-6 themed-grid-col">
+            <div class="text-md-start col-md-12">
+              <!-- Second row in the center column -->
               Robotics & Web developer
               <img
                 src="./images/robot-arm-icon.svg"
@@ -49,7 +55,9 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 themed-grid-col">
+        <div class="col-md-4 themed-grid-col text-center">
+          <!-- Column 3 content -->
+          <!-- You can add your content here -->
           <img
             id="vietnam-presentation-picture"
             src="./images/vietnam_presentation.jpg"
@@ -58,6 +66,9 @@
           />
         </div>
       </div>
+    </section>
+    <section id="Resume">
+      <div class="row mt-3"></div>
     </section>
   </body>
 </html>
